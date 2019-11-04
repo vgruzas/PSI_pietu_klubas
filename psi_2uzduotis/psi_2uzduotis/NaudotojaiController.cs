@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace psi_2uzduotis
 {
-    class NaudotojaiController:IDBOperatable
+    public class NaudotojaiController:IDBOperatable
     {
         private int i;
         private int ID;

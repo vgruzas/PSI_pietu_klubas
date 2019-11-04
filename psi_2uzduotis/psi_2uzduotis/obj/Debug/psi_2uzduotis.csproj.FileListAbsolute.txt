@@ -24,3 +24,16 @@ C:\Users\Domantas\Desktop\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.ex
 C:\Users\Domantas\Desktop\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.pdb
 C:\Users\Domantas\Desktop\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Prisijungimas.resources
 C:\Users\Domantas\Desktop\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Register.resources
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\bin\Debug\2uzd.mdf
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\bin\Debug\2uzd_log.ldf
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.exe.config
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.exe
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.pdb
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csprojAssemblyReference.cache
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Prisijungimas.resources
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Properties.Resources.resources
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Register.resources
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csproj.GenerateResource.cache
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csproj.CoreCompileInputs.cache
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.exe
+C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.pdb

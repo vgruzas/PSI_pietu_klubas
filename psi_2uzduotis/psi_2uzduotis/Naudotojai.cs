@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace psi_2uzduotis
 {
-    class Naudotojai
+    public class Naudotojai
     {
         private int ID;
         private string vardas;
