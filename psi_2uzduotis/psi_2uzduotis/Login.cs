@@ -18,6 +18,8 @@ namespace psi_2uzduotis
         {
             InitializeComponent();
         }
+        private Form1 f1;
+        private Form2 f2;
         private Register r;
         public static string usrn;
         int retries = 0;
@@ -59,10 +61,17 @@ namespace psi_2uzduotis
 
                         if (naud.GetSlap().TrimEnd() == pswTextBox.Text)
                         {
-                            MessageBox.Show("Prisijungete sekmingai!");
-                            loginTextBox.Text = "";
-                            pswTextBox.Text = "";
-                            loginTextBox.Select();
+                            this.Hide();
+                            if (naud.GetTypeN() == 0)
+                            {
+                                f1 = new Form1();
+                                f1.Show();
+                            }
+                            else
+                            {
+                                f2 = new Form2();
+                                f2.Show();
+                            }
                         }
                         else
                         {
@@ -77,10 +86,10 @@ namespace psi_2uzduotis
                     conn.Close();
                 }
             }
-            catch (SqlException)
+            catch (System.Data.SqlClient.SqlException)
             {
-                MessageBox.Show("Patikrinkite ar duomenų bazė yra pasiekiama!");
-                Application.Exit();
+                System.Windows.Forms.MessageBox.Show("Patikrinkite ar duomenų bazė yra pasiekiama!");
+                System.Windows.Forms.Application.Exit();
             }
         }
         private void LoginTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -107,7 +116,12 @@ namespace psi_2uzduotis
 
         private void Prisijungimas_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void Prisijungimas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

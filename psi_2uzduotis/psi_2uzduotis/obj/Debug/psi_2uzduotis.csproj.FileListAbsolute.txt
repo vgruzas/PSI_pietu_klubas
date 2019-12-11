@@ -37,3 +37,17 @@ C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduoti
 C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csproj.CoreCompileInputs.cache
 C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.exe
 C:\Users\Domantas\Desktop\psi\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.pdb
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\bin\Debug\2uzd.mdf
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\bin\Debug\2uzd_log.ldf
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.exe.config
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.exe
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\bin\Debug\psi_2uzduotis.pdb
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csprojAssemblyReference.cache
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Form1.resources
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Form2.resources
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Prisijungimas.resources
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Properties.Resources.resources
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.Register.resources
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.csproj.GenerateResource.cache
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.exe
+C:\Users\Vaidotas\Documents\PSI_pietu_klubas\psi_2uzduotis\psi_2uzduotis\obj\Debug\psi_2uzduotis.pdb

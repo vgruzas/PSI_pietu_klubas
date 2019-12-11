@@ -108,6 +108,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prisijungimas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Prisijungimas_FormClosed);
+            this.Load += new System.EventHandler(this.Prisijungimas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

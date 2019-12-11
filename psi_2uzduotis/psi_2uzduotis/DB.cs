@@ -11,11 +11,13 @@ namespace psi_2uzduotis
 {
     class DB
     {
-        private IDBOperatable controller;
+        public IDBOperatable controller;
+        private List<Uzrasai> uzr = new List<Uzrasai>();
         private List<Naudotojai> naud = new List<Naudotojai>();
 
-        public DB(List<Naudotojai> naud)
+        public DB(List<Uzrasai> uzr, List<Naudotojai> naud)
         {
+            this.uzr = uzr;
             this.naud = naud;
         }
 
@@ -36,6 +38,30 @@ namespace psi_2uzduotis
             {
                 MessageBox.Show("Patikrinkite ar duomenų bazė yra pasiekiama!");
                 Application.Exit();
+            }
+        }
+        public void ReadUzrasai()
+        {
+            try
+            {
+                string connString = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
+                SqlConnection conn = new SqlConnection(connString);
+                conn.Open();
+                SqlCommand command = conn.CreateCommand();
+                command.CommandType = System.Data.CommandType.Text;
+                command.CommandText = controller.Read();
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Uzrasai u = new Uzrasai(Convert.ToInt32(reader[0]), reader[1].ToString(), reader[2].ToString(), reader[3].ToString());
+                    uzr.Add(u);
+                }
+                conn.Close();
+            }
+            catch (System.Data.SqlClient.SqlException)
+            {
+                System.Windows.Forms.MessageBox.Show("Patikrinkite ar duomenų bazė yra pasiekiama!");
+                System.Windows.Forms.Application.Exit();
             }
         }
         public void ReadNaudotojai()
