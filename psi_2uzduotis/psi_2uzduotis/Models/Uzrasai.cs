@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace psi_2uzduotis
 {
-    class Uzrasai
+    public class Uzrasai
     {
         private int ID;
         private string pavadinimas;
